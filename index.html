@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=Playwrite+HU:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&family=WDXL+Lubrifont+TC&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <div id="home" class="  w-full md:h-screen h-96 bg-[url(/images/food2.jpg)]   bg-no-repeat bg-cover bg-center">
+        <div class="w-full md:h-screen h-96 bg-[url(/images/food2.jpg)]   bg-no-repeat bg-cover bg-center ">
+            <nav class=" z-1000 bg-red-950 text-white h-20 md:p-8 p:4 md:w-full  md:fixed  xs:fixed xs:w-full ">
+                <ul class="flex justify-evenly md:text-xl items-center">
+                   <a href="#special"><li class="hover:text-yellow-400 cursor-pointer">Specials</li></a> 
+                   <a href="#about"> <li class="hover:text-yellow-400 cursor-pointer">About</li></a>
+                   <a href="#menu"> <li class="hover:text-yellow-400 cursor-pointer">Menu</li></a>
+                   <a href="#chef"><li class="hover:text-yellow-400 cursorpointer">Chef</li></a>
+                    <a href="#contact"><li class="hover:text-yellow-400 cursor-pointer">Contact</li></a>
+                </ul>
+            </nav>
+            <div class="flex justify-center items-left w-full flex-col text-black pl-20 md:pt-60 pt-20">
+                <h1 class="md:text-9xl  text-3xl">BURGERIA</h1>
+                <P class="mt-5 md:text-4xl text-">We Serve Most Delicious Burgers...</P>
+            </div>
+        </div>
+    </div>
+    <!-- body -->
+    <div id="special" class="flex justify-center items-center flex-col">
+        <h1 class="text-3xl mt-20">OUR SPECIALS</h1>
+        <div class="w-40 h-1 bg-orange-500 my-6 "></div>
+
+        <div class="grid md:grid-cols-3  grid-cols-1 w-full my-10 md:px-40 px-10">
+            <div class="md:p-8 p-5 ">
+                <h1 class="text-center text-3xl">X-Classico</h1>
+                <img class="min-h-56 object-cover mt-3 w-full h-60   mt-4" src="./images/bur1.avif" alt="">
+                <p class="mt-5"> Taste the best! Crispy onions, fresh veggies, and juicy beef all in one bite. Lorem
+                    ipsum, dolor sit
+                    amet consectetur adipisicing elit. Assumenda, deleniti!</p>
+
+            </div>
+
+            <div class="md:p-8 p-5 ">
+                <h1 class="text-center text-3xl">Cheesy Burgy</h1>
+                <img class=" object-cover min-h-56 object-cover mt-3 w-full h-60   mt-4" src="./images/bur4s.jpeg "
+                    alt="">
+                <p class="mt-5"> Taste the best! Crispy onions, fresh veggies, and juicy beef all in one bite. Lorem
+                    ipsum, dolor sit
+                    amet consectetur adipisicing elit. Assumenda, deleniti!</p>
+
+            </div>
+            <div class="md:p-8 p-5 ">
+                <h1 class="text-center text-3xl">Zinger Burger</h1>
+                <img class="min-h-56 object-cover mt-3 w-full h-60   mt-4" src="./images/bur2.webp" alt="">
+                <p class="mt-5">Taste the best! Crispy onions, fresh veggies, and juicy beef all in one bite. Lorem
+                    ipsum, dolor sit
+                    amet consectetur adipisicing elit. Assumenda, deleniti!</p>
+
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div id="about" class="grid md:grid-cols-2 grid-cols-1 py-5 md:gap-10 gap-20  xs:ml-20 -20 bg-gray-300">
+        <div><img class="ml-3  w-full pr-6  object-cover md:h-150 h-50 " src="./images/story-img.jpg" alt=""></div>
+        <div class="flex justify-center items-center flex-col  ">
+            <h1 class="md:text-3xl text-xl">OUR STORY</h1>
+            <div class="w-40 h-1 bg-orange-500 my-6 "></div>
+            <p class=" text-lg pr-10 pl-3 text-justify md:pl-5 sm:pl-10">At Burgeria, our journey began with a simple
+                craving — the desire to serve a burger that’s more than just
+                fast food. We started as a small team of food lovers with a big dream: to craft burgers that blend bold
+                flavors, quality ingredients, and the comfort of a homemade meal. What began as a single food truck in
+                our hometown quickly grew into a buzzing restaurant, thanks to the love and support of our incredible
+                community. Every burger we serve is a reflection of our passion — freshly grilled patties, hand-picked
+                produce, and signature sauces made in-house. Orin is not just a place to eat; it’s where great food
+                meets great people. We’re proud of how far we’ve come, and we’re just getting started. Welcome to the
+                Orin family. From day one, we were committed to doing things differently. We sourced fresh, local
+                ingredients, crafted our own sauces, experimented with flavors, and grilled every patty to perfection.
+                Our first setup was humble — a small food truck parked on a busy corner — but what we lacked in size, we
+                made up for in heart. The community welcomed us with open arms, and before long, the line outside our
+                truck told us we were on to something.
+
+
+                We believe food is a language of love, and every burger we serve is our way of saying thank you — to our
+                customers, our team, and the community that helped shape us. Whether you're here for a quick lunch, a
+                late-night craving, or a weekend hangout with friends, you're part of the Orin family.
+
+                This is our story — and it’s still being written, one burger at a time.</p>
+        </div>
+
+    </div>
+    <!-- MENU -->
+    <div  id="menu" class="mt-10 bg-orange-200 ">
+        <div class="flex justify-center items-center flex-col">
+            <h1 class="md:text-3xl text-xl mt-5  ">MENU</h1>
+            <div class="w-40 h-1 bg-orange-500 md:my-6 my-2 "></div>
+            <!-- 3 columns -->
+            <div class="grid md:grid-cols-3 grid-cols-1  md:w-full w-auto my-10 md:px-40 px-1 md:h-150 h-auto">
+                <div class="bg-gray-300  md:w-full w-auto  xs:h-auto">
+                    <h1 class="text-center text-3xl my-10 bg-red-800 rounded-xl  w-50 h-15 md:mx-35 pt-3 ">MEAT</h1>
+                    <div class="p-5 ">
+
+                        <div class="flex justify-between items-center p-5 text-xl  ">
+                            <div>
+                                <h4 class="font-semibold">HAMBURGER</h4>
+                                <span>
+                                    🍔 Classic Beef – Beef, cheese, lettuce
+                                </span>
+                            </div>
+                            <h4>12$</h4>
+                        </div>
+                        <div class=" flex justify-between  items-center p-5 text-xl">
+                            <div>
+                                <h4 class="font-semibold">HICKORI BURGUR</h4>
+                                <span class="text-xl">🧀 Double Cheesy – 2 patties, extra cheese.</span>
+                            </div>
+                            <h4>10$</h4>
+                        </div>
+                        <div class="  flex justify-between items-center p-5 text-xl ">
+                            <div>
+                                <h4 class="font-semibold">CHICKEN CLUB BURGUR</h4>
+                                <span class="text-xl">🌶️ Spicy Chicken – Crispy, spicy, bold</span>
+                            </div>
+                            <h4>8$</h4>
+                        </div>
+                        <div class="  flex justify-between items-center p-5 text-xl">
+                            <div>
+                                <h4 class="font-semibold">CHICKEN BUBRIS</h4>
+                                <span class="text-xl">🍄 Mushroom Melt – Mushrooms, Swiss, creamy
+                                </span>
+                            </div>
+                            <h4>22$</h4>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="bg-orange-300 md:w-full  w-auto xs:h-auto">
+                    <img class="bg-center bg-cover w-full h-100 md:h-150"
+                        src="./images/big-tasty-home-made-burger-with-flying-ingredients-white-background-isolated_158023-1.avif"
+                        alt="">
+                </div>
+                <div class="bg-gray-300 md:w-full w-auto xs:h-auto">
+                    <div>
+                        <h1 class="text-center text-3xl my-10 bg-red-800 rounded-xl  w-50 h-15 md:mx-35 pt-3 ">Sides
+                        </h1>
+                        <div class="p-5 ">
+                            <div class="flex justify-between items-center p-5 text-xl  ">
+                                <div>
+                                    <h4 class="font-semibold">🍟Classic FRies</h4>
+                                    <span>Crispy golden potato sticks</span>
+                                </div>
+                                <h4>12$</h4>
+                            </div>
+                            <div class=" flex justify-between  items-center p-5 text-xl">
+                                <div>
+                                    <h4 class="font-semibold">🧀Cheesy Fries</h4>
+                                    <span class="text-xl">Loaded with melted cheese.</span>
+                                </div>
+                                <h4>12$</h4>
+                            </div>
+                            <div class="  flex justify-between items-center p-5 text-xl ">
+                                <div>
+                                    <h4 class="font-semibold">🌶️ Spicy Wedges</h4>
+                                    <span class="text-xl"> Seasoned potato wedges with a kick
+                                    </span>
+                                </div>
+                                <h4>12$</h4>
+                            </div>
+                            <div class="  flex justify-between items-center p-5 text-xl">
+                                <div>
+                                    <h4 class="font-semibold">🧅 Onion Rings</h4>
+                                    <span class="text-xl">Crispy, golden onion loops</span>
+                                </div>
+                                <h4>12$</h4>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--our shefs  -->
+    <div  class=" bg-slate-300 w-full text-center" >
+        <h1   class="md:text-3xl  py-10 ">OUR TEAM</h1>
+        <div class="w-40 h-1 bg-orange-500  mx-210 "></div>
+
+
+
+        <!-- Outer container with scroll and snap -->
+        <div id="chef" class="px-20 pb-15">
+            <div class="overflow-x-auto scroll-smooth my-10 w-full py-20   items-center scroll-hide ">
+                <style>
+                    .scroll-hide::-webkit-scrollbar {
+                        display: none;
+                        /* Chrome, Safari */
+                    }
+
+                    .scroll-hide {
+                        -ms-overflow-style: none;
+                        /* Internet Explorer and Edge */
+                        scrollbar-width: none;
+                        /* Firefox */
+                    }
+                </style>
+                <div  class="flex gap-4 snap-x snap-mandatory ">
+
+                    <!-- Image 1 -->
+
+                    <div class="snap-center flex-shrink-0 w-64 h-80" data-aos="zoom-in">
+                        <img src="./images/shef2.jpg"
+                            class="w-full h-full object-cover rounded-lg duration-300 ease-in" />
+                        <h4 class="font-semibold py-2 ">Chef Max Flame, M.B.G.</h4>
+                        <div class="flex-col">
+                            <h4>(Master of Burger Grilling)
+                                “Every patty deserves passion — and fire.”</h4>
+                        </div>
+                    </div>
+
+
+                    <!-- Image 2 -->
+                    <div class="snap-center flex-shrink-0 w-64 h-80" data-aos="zoom-in">
+                        <img src="./images/shef3.jpg" class="w-full h-full object-cover rounded-lg" />
+                        <h4 class="font-semibold py-2">Chef Max Flame, M.B.G.</h4>
+                        <div class="flex-col">
+                            <h4>(Master of Burger Grilling)
+                                “Every patty deserves passion — and fire.”</h4>
+                        </div>
+                    </div>
+
+                    <!-- Image 3 -->
+                    <div class="snap-center flex-shrink-0 w-64 h-80" data-aos="zoom-in">
+                        <img src="./images/shef1.jpeg" class="w-full h-full object-cover rounded-lg" />
+                        <h4 class="font-semibold py-2">Chef Max Flame, M.B.G.</h4>
+                        <div class="flex-col">
+                            <h4>(Master of Burger Grilling)
+                                “Every patty deserves passion — and fire.”</h4>
+                        </div>
+
+                    </div>
+                    <div class="snap-center flex-shrink-0 w-64 h-80" data-aos="zoom-in">
+                        <img src="./images/shef4.jpg" class="w-full h-full object-cover rounded-lg" />
+                        <h4 class="font-semibold py-2">Chef Bella Buns, C.B.A</h4>
+                        <div class="flex-col">
+                            <h4>(Certified Bun Artist)
+                                “Soft buns. Bold flavors. Always handcrafted.”</h4>
+                        </div>
+                    </div>
+                    <div class="snap-center flex-shrink-0 w-64 h-80  " data-aos="zoom-in">
+                        <img src="./images/shef5.jpg" class="w-full h-full object-cover rounded-lg" />
+                        <h4 class="font-semibold py-2">Chef Tony Grillz, PhD (Grillology).</h4>
+                        <div class="flex-col">
+                            <h4>“I don’t flip patties. I sculpt them.”</h4>
+                        </div>
+                    </div>
+                    <div class="snap-center flex-shrink-0 w-64 h-80" data-aos="zoom-in">
+                        <img src="./images/shef6.jpg" class="w-full h-full object-cover rounded-lg" />
+                        <h4 class="font-semibold py-2"> Chef Crispy Carl, D.C.F. (Doctor of Crispy Frying)</h4>
+                        <div class="flex-col">
+                            <h4>“Crispy outside. Juicy inside. Science meets taste.”</h4>
+                        </div>
+                    </div>
+                    <div class="snap-center flex-shrink-0 w-64 h-80" data-aos="zoom-in">
+                        <img src="./images/shef7.jpeg" class="w-full h-full object-cover rounded-lg" />
+                        <h4 class="font-semibold py-2"> Chef Patty Queen Rita, M.B.A.</h4>
+                        <div class="flex-col">
+                            <h4> (Master of Burger Architecture)
+                                “Stack high, layer bold, serve legendary.”</h4>
+                        </div>
+                    </div>
+                    <div class="snap-center flex-shrink-0 w-64 h-80" data-aos="zoom-in">
+                        <img src="./images/shef8.jpeg" class="w-full h-full object-cover rounded-lg" />
+                        <h4 class="font-semibold py-2">Chef Smokey Joe, B.B.Q. </h4>
+                        <div class="flex-col">
+                            <h4>(Master of Burger Grilling)
+                                “Every patty deserves passion — and fire.”</h4>
+                        </div>
+                    </div>
+                    <div class="w-full bg-slate-700" data-aos="zoom-in">
+                        <div class="snap-center flex-shrink-0 w-64 h-80">
+                            <img src="./images/shef4.jpg" class="w-full h-full object-cover rounded-lg" />
+                            <h4 class="font-semibold py-2">Chef Laila Flameheart, S.F.S.</h4>
+                            <div class="flex-col">
+                                <h4>(Specialist in Fiery Spices)
+                                    “Every bite should dance on your tongue.”</h4>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Add more images similarly -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- order now -->
+    <div  class="grid md:grid-cols-2 grid-cols-1 w-full  py-15 gap-10">
+
+        <div>
+            <img class="bg-cover w-full h-full"   src="./images/691417943-f28759bc6c9c73cf7d826fb34a0fd019a91584ed5fd54102848863093c3817a9-d.webp"
+                alt="">
+        </div>
+        <div class="flex-col py-5 px-20"  >
+            <h1 class="text-4xl font-bold py-3">DOWNLOAD OUR APP</h1>
+            <h4 class="text-3xl">Download our App and get 10% discount</h4>
+            <p class="text-xl py-3">We offer fast delivery of our burgers in Los Angeles every day. Download our app to be able to order
+                anything from our menu. Also, you can pre-order burgers via this app and grab them at a specified time
+            </p>
+            <div class="grid grid-cols-[40px_1fr] gap-4 py-3">
+                <i class="fa-solid fa-truck-fast brands"></i>
+                <div >
+                    <h3 class="text-xl">Track your Order</h3>
+                    <p class="text-xl">After placing an order, you can track its status and the current location of the courier.</p>
+                </div>
+            </div>
+             <div class="grid grid-cols-[40px_1fr] gap-4 ">
+                <i class="fa-solid fa-id-card brands"></i>
+                <div>
+                    <h3 class="text-xl">Personal account</h3>
+                    <p class="text-xl">Get special offers, be the first to know about our new burgers, and manage your orders easier!</p>
+                </div>
+            </div>
+            <img class="bg-cover bg-center w-120"  src="./images/gpay.webp" alt="">
+
+        </div>
+        
+    </div>
+
+<!-- Footer -->
+<footer id="contact" class="bg-slate-900 text-white py-10 mt-10">
+  <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
+    
+    <!-- Brand / About -->
+    <div>
+      <h3 class="text-2xl font-bold mb-2">🍔 Burgeria</h3>
+      <p class="text-sm text-gray-400">Handcrafted burgers made fresh every day. Taste the tradition with every bite.</p>
+    </div>
+
+    <!-- Quick Links -->
+    <div>
+      <h4 class="text-lg font-semibold mb-3">Quick Links</h4>
+      <ul class="space-y-2 text-sm text-gray-300">
+        <li><a href="#" class="hover:text-orange-400 transition">Home</a></li>
+        <li><a href="#" class="hover:text-orange-400 transition">Menu</a></li>
+        <li><a href="#" class="hover:text-orange-400 transition">Our Team</a></li>
+        <li><a href="#" class="hover:text-orange-400 transition">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Opening Hours -->
+    <div>
+      <h4 class="text-lg font-semibold mb-3">Opening Hours</h4>
+      <ul class="text-sm text-gray-300 space-y-1">
+        <li>Mon - Fri: 10 AM - 10 PM</li>
+        <li>Sat: 11 AM - 11 PM</li>
+        <li>Sun: Closed</li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div>
+      <h4 class="text-lg font-semibold mb-3">Contact Us</h4>
+      <ul class="text-sm text-gray-300 space-y-2">
+        <li>Email: <a href="mailto:info@orinburger.com" class="hover:text-orange-400">info@orinburger.com</a></li>
+        <li>Phone: <a href="tel:+91234567890" class="hover:text-orange-400">+91 234 567 890</a></li>
+        <li>Location: Kochi, Kakkanad</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Bottom note -->
+  <div class="mt-8 text-center text-xs text-gray-500">
+    &copy; 2025 Orin Burger. All rights reserved.
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
